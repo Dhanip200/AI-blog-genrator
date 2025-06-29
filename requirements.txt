@@ -1,0 +1,22 @@
+Flask
+python-dotenv
+appwrite
+requests
+openai>=1.0.0 # Or openai==0.28 if you prefer the older API syntax, but code provided uses >=1.0.0
+soundfile
+librosa
+transformers
+datasets
+sentencepiece
+Flask==3.0.3
+openai>=1.0.0
+gtts==2.3.2
+requests>=2.31.0
+python-dotenv>=1.0.1
+appwrite>=10.0.0
+tavily-python>=0.3.0
+accelerate # Often helpful for running large models with transformers
+# torch # PyTorch - This MUST be installed separately based on your CUDA/CPU setup.
+# See https://pytorch.org/get-started/locally/ for installation instructions.
+# Example for CUDA 12.1: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# Example for CPU only: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
